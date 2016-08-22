@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+          android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Inicio"
+
+            />
+        <item
+            android:id="@+id/nav_construccion"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Construcción" />
+        <item
+            android:id="@+id/nav_contabilidad"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Contabilidad" />
+        <item
+            android:id="@+id/nav_laboratorista"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Laboratorista Quimico" />
+        <item
+            android:id="@+id/nav_programacion"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Programación" />
+
+        <item
+            android:id="@+id/nav_soporte"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Soporte y Mantenimiento"></item>
+    </group>
+
+    <item android:title="Contacto">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Compartir" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Mensaje" />
+        </menu>
+    </item>
+
+</menu>

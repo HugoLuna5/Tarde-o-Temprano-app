@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">158471312763-79umnm0r00bhcrve42k7i9f4u5j6j91a.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://tarde-o-temprano-mexico.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">158471312763</string>
+    <string name="google_api_key" translatable="false">AIzaSyDwLth6cV8maZxDyR0gdynexv9aL34ozUU</string>
+    <string name="google_app_id" translatable="false">1:158471312763:android:d184eb6b3881356b</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDwLth6cV8maZxDyR0gdynexv9aL34ozUU</string>
+    <string name="google_storage_bucket" translatable="false">tarde-o-temprano-mexico.appspot.com</string>
+</resources>

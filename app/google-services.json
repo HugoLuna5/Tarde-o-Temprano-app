@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "158471312763",
+    "firebase_url": "https://tarde-o-temprano-mexico.firebaseio.com",
+    "project_id": "tarde-o-temprano-mexico",
+    "storage_bucket": "tarde-o-temprano-mexico.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:158471312763:android:d184eb6b3881356b",
+        "android_client_info": {
+          "package_name": "es.esy.lunainc.www.tardeotempranomx"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "158471312763-cbr58o2vl2c31nveold4gk236oqkorvq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "es.esy.lunainc.www.tardeotempranomx",
+            "certificate_hash": "71D38E288D3592471AA112C52412F9BBA080E7B8"
+          }
+        },
+        {
+          "client_id": "158471312763-79umnm0r00bhcrve42k7i9f4u5j6j91a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwLth6cV8maZxDyR0gdynexv9aL34ozUU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "158471312763-79umnm0r00bhcrve42k7i9f4u5j6j91a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

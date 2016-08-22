@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/recent_item"
+        android:icon="@drawable/ic_home"
+        android:title="Inicio" />
+
+
+
+    <item
+        android:id="@+id/favorite_item"
+        android:icon="@drawable/ic_especialidades"
+        android:title="Especi." />
+
+
+    <item
+        android:id="@+id/location_item"
+        android:icon="@drawable/ic_location_on_white_24dp"
+        android:title="Ubicación 2" />
+    <item
+        android:id="@+id/perfil_item"
+        android:icon="@drawable/ic_perfil"
+    android:title="Perfil"
+        />
+</menu>

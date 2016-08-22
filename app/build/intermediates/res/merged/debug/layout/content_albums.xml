@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="info.androidhive.listviewfeed.Albums"
+   android:background="#000"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_marginTop="10dp"
+        >
+        <LinearLayout
+            android:onClick="Album1"
+            android:orientation="vertical"
+            android:layout_width="165dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="6dp">
+
+        <LinearLayout
+
+            android:layout_height="165dp"
+            android:layout_width="165dp"
+            android:paddingRight="10dp"
+            android:background="@drawable/disco1"
+            >
+
+        </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="24dp"
+                android:text="Tommy Torres"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:textSize="18dp"
+                android:layout_gravity="bottom"
+                android:layout_marginTop="3dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="12 Canciones - 2001"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:textSize="13dp"
+                android:layout_gravity="bottom" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:onClick="Album2"
+            android:layout_width="165dp"
+            android:layout_marginLeft="15dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="20dp">
+
+        <LinearLayout
+
+            android:layout_height="165dp"
+            android:layout_width="165dp"
+            android:background="@drawable/disco3"
+
+            >
+
+
+        </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_gravity="bottom"
+                android:text="Estar de moda no está de moda"
+                android:textColor="#fff"
+                android:gravity="center"
+                android:textSize="16dp"
+                android:layout_marginTop="3dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="11 Canciones - 2004"
+                android:textSize="13dp"
+android:textColor="#fff"
+                android:gravity="center"/>
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+    <!--Discos 2-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:layout_marginTop="20dp"
+        >
+        <LinearLayout
+            android:onClick="Album3"
+            android:orientation="vertical"
+            android:layout_width="165dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp">
+
+            <LinearLayout
+
+                android:layout_height="165dp"
+                android:layout_width="165dp"
+                android:paddingRight="10dp"
+                android:background="@drawable/disco2"
+                >
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="24dp"
+                android:text="Tarde o Temprano"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:textSize="18dp"
+                android:layout_gravity="bottom"
+                android:layout_marginTop="3dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="11 Canciones - 2008"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:textSize="13dp"
+                android:layout_gravity="bottom" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:onClick="Album4"
+            android:orientation="vertical"
+            android:layout_width="165dp"
+            android:layout_marginLeft="15dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="20dp">
+
+            <LinearLayout
+
+                android:layout_height="165dp"
+                android:layout_width="165dp"
+                android:background="@drawable/disco4"
+
+                >
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="24dp"
+                android:text="12 Historias"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:textSize="18dp"
+                android:layout_gravity="bottom"
+                android:layout_marginTop="3dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="12 Canciones - 2012"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:textSize="13dp"
+                android:layout_gravity="bottom"/>
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="40dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Popular"
+        android:textColor="#fff"
+        android:textSize="25dp"
+        android:gravity="center"
+        />
+
+</LinearLayout>
+
+
+<!--Exitos-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dip"
+            android:onClick="exito1"
+            >
+            <LinearLayout android:id="@+id/thumbnail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="3dip"
+                android:layout_alignParentLeft="true"
+                android:layout_marginRight="5dip">
+                <!--Elemento ImageView para la imagen del item-->
+                <ImageView
+                    android:src="@drawable/disco4"
+                    android:layout_gravity="center"
+                    android:layout_width="60dip"
+
+                    android:layout_height="60dip"/>
+            </LinearLayout>
+            <!--Elemento TexView para el Título-->
+            <TextView
+                android:id="@+id/txtTitle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/thumbnail"
+                android:layout_toRightOf="@+id/thumbnail"
+                android:textColor="#fff"
+                android:text="Querido Tommy"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="5dp"
+                android:textSize="22dip"
+                android:fontFamily="sans-serif-condensed"
+                android:textStyle="normal"/>
+            <!--Elemento TexView para la descripción -->
+            <TextView
+                android:id="@+id/txtDescription"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtTitle"
+                android:textColor="#fff"
+                android:text="4,260,262 Reproducciones"
+                android:textSize="17dip"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:fontFamily="sans-serif-thin"
+                android:textStyle="normal"
+                android:layout_marginTop="1dip"
+                android:layout_toRightOf="@+id/thumbnail" />
+        </RelativeLayout>
+
+        <!--Disco2-->
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:padding="5dip"
+            android:onClick="exito2">
+            <LinearLayout android:id="@+id/thumbnail2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="3dip"
+                android:layout_alignParentLeft="true"
+                android:layout_marginRight="5dip">
+                <!--Elemento ImageView para la imagen del item-->
+                <ImageView
+                    android:src="@drawable/ven"
+                    android:layout_gravity="center"
+                    android:layout_width="60dip"
+
+                    android:layout_height="60dip"/>
+            </LinearLayout>
+            <!--Elemento TexView para el Título-->
+            <TextView
+                android:id="@+id/txtTitle2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/thumbnail2"
+                android:layout_toRightOf="@+id/thumbnail2"
+                android:textColor="#fff"
+                android:text="Ven (feat. Gaby Moreno)"
+
+                android:gravity="center"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="5dp"
+                android:textSize="22dip"
+                android:fontFamily="sans-serif-condensed"
+                android:textStyle="normal"/>
+            <!--Elemento TexView para la descripción -->
+            <TextView
+                android:id="@+id/txtDescription2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtTitle2"
+                android:textColor="#fff"
+                android:text="1,805,216 Reproducciones"
+                android:textSize="17dip"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:fontFamily="sans-serif-thin"
+                android:textStyle="normal"
+                android:layout_marginTop="1dip"
+                android:layout_toRightOf="@+id/thumbnail2" />
+        </RelativeLayout>
+
+        <!--Disco3-->
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dip"
+            android:onClick="exito3">
+            <LinearLayout android:id="@+id/thumbnail3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="3dip"
+                android:layout_alignParentLeft="true"
+                android:layout_marginRight="5dip">
+                <!--Elemento ImageView para la imagen del item-->
+                <ImageView
+                    android:src="@drawable/disco2"
+                    android:layout_gravity="center"
+                    android:layout_width="60dip"
+
+                    android:layout_height="60dip"/>
+            </LinearLayout>
+            <!--Elemento TexView para el Título-->
+            <TextView
+                android:id="@+id/txtTitle3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/thumbnail3"
+                android:layout_toRightOf="@+id/thumbnail3"
+                android:textColor="#fff"
+                android:text="Pegadito"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="5dp"
+                android:textSize="22dip"
+                android:fontFamily="sans-serif-condensed"
+                android:textStyle="normal"/>
+            <!--Elemento TexView para la descripción -->
+            <TextView
+                android:id="@+id/txtDescription3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtTitle3"
+                android:textColor="#fff"
+                android:text="2,628,106 Reproducciones"
+                android:textSize="17dip"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:fontFamily="sans-serif-thin"
+                android:textStyle="normal"
+                android:layout_marginTop="1dip"
+                android:layout_toRightOf="@+id/thumbnail3" />
+        </RelativeLayout>
+
+
+        <!--Disco4-->
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dip"
+            android:onClick="exito4">
+            <LinearLayout android:id="@+id/thumbnail4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="3dip"
+                android:layout_alignParentLeft="true"
+                android:layout_marginRight="5dip">
+                <!--Elemento ImageView para la imagen del item-->
+                <ImageView
+                    android:src="@drawable/disco4"
+                    android:layout_gravity="center"
+                    android:layout_width="60dip"
+
+                    android:layout_height="60dip"/>
+            </LinearLayout>
+            <!--Elemento TexView para el Título-->
+            <TextView
+                android:id="@+id/txtTitle4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/thumbnail4"
+                android:layout_toRightOf="@+id/thumbnail4"
+                android:textColor="#fff"
+                android:text="Sin ti - feat. Nerly Furtado"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="5dp"
+                android:textSize="22dip"
+                android:fontFamily="sans-serif-condensed"
+                android:textStyle="normal"/>
+            <!--Elemento TexView para la descripción -->
+            <TextView
+                android:id="@+id/txtDescription4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtTitle4"
+                android:textColor="#fff"
+                android:text="1,122,166 Reproducciones"
+                android:textSize="17dip"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:fontFamily="sans-serif-thin"
+                android:textStyle="normal"
+                android:layout_marginTop="1dip"
+                android:layout_toRightOf="@+id/thumbnail4" />
+        </RelativeLayout>
+
+        <!--Número 5-->
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dip"
+            android:onClick="exito5">
+            <LinearLayout android:id="@+id/thumbnail5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="3dip"
+                android:layout_alignParentLeft="true"
+                android:layout_marginRight="5dip">
+                <!--Elemento ImageView para la imagen del item-->
+                <ImageView
+                    android:src="@drawable/disco2"
+                    android:layout_gravity="center"
+                    android:layout_width="60dip"
+
+                    android:layout_height="60dip"/>
+            </LinearLayout>
+            <!--Elemento TexView para el Título-->
+            <TextView
+                android:id="@+id/txtTitle5"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/thumbnail5"
+                android:layout_toRightOf="@+id/thumbnail5"
+                android:textColor="#fff"
+                android:text="Tarde O Temprano"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="5dp"
+                android:textSize="22dip"
+                android:fontFamily="sans-serif-condensed"
+                android:textStyle="normal"/>
+            <!--Elemento TexView para la descripción -->
+            <TextView
+                android:id="@+id/txtDescription5"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtTitle5"
+                android:textColor="#fff"
+                android:text="1,991,896 Reproducciones"
+                android:textSize="17dip"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:fontFamily="sans-serif-thin"
+                android:textStyle="normal"
+                android:layout_marginTop="1dip"
+                android:layout_toRightOf="@+id/thumbnail5" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
+
+</android.support.v4.widget.NestedScrollView>

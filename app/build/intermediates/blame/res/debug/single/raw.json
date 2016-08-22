@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\hugo_\\Desktop\\Prueba\\Tarde o Temprano\\app\\build\\intermediates\\res\\merged\\debug\\raw\\intro2.mp4",
+        "source": "C:\\Users\\hugo_\\Desktop\\Prueba\\Tarde o Temprano\\app\\src\\main\\res\\raw\\intro2.mp4"
+    },
+    {
+        "merged": "C:\\Users\\hugo_\\Desktop\\Prueba\\Tarde o Temprano\\app\\build\\intermediates\\res\\merged\\debug\\raw\\tw__cacerts",
+        "source": "C:\\Users\\hugo_\\Desktop\\Prueba\\Tarde o Temprano\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\twitter-core\\1.7.0\\res\\raw\\tw__cacerts"
+    },
+    {
+        "merged": "C:\\Users\\hugo_\\Desktop\\Prueba\\Tarde o Temprano\\app\\build\\intermediates\\res\\merged\\debug\\raw\\gtm_analytics",
+        "source": "C:\\Users\\hugo_\\Desktop\\Prueba\\Tarde o Temprano\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-analytics-impl\\9.2.1\\res\\raw\\gtm_analytics"
+    }
+]

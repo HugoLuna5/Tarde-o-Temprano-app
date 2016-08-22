@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">Tarde o Temprano, Mx</string>
+    <string name="title_activity_navigation">Especialidades</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Ajustes</string>
+    <string name="title_activity_ubicacion">Ubicación</string>
+    <string name="hello_user">Hola </string>
+
+    <string name="hello_world">Hello world!</string>
+    <!--Identificador de facebook-->
+
+    <string name="aceptar">Ok</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="title_activity_ajustes">Ajustes</string>
+
+
+
+
+
+
+
+
+    <!--Texto para intro-welcome-->
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">Siguiente</string>
+    <string name="skip">SKIP</string>
+    <string name="start">Entrar</string>
+
+    <string name="slide_1_title">Hola mafia mexicana!</string>
+    <string name="slide_1_desc">Bienvenido a la aplicacion oficial del fan club de Tommy Torres!</string>
+
+    <string name="slide_2_title">Fan Club Tard eo Temprano, Mex.</string>
+    <string name="slide_2_desc">Platica con los directivos de la escuela, para estar mejor informado!</string>
+
+    <string name="slide_3_title">Sección de Noticias</string>
+    <string name="slide_3_desc">Revisa la sección de noticias a diario para mantenerte informado!</string>
+
+    <string name="slide_4_title">Descubre</string>
+    <string name="slide_4_desc">Descubre la información acerca del canta-autor puertoriqueño Tommy Torres!</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+
+    <string name="title_activity_radio">TommyMania</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_albums">Álbumes</string>
+
+<string name="about">Lo que comenzó como un proyecto para apoyar la creciente carrera del cantautor y productor Tommy Torres, quien después de presentarse en nuestro país con su producción “Tarde o Temprano” motivó a un pequeño grupo de seguidores, quienes inicialmente y de forma unitaria buscaban promocionar a su artista favorito.
+    \n\n Fue en 2013 cuando se unieron para formar un club de apoyo al talento del cantautor; hoy en día se complace en formar entre sus filas a cientos de integrantes distribuidos por el globo quien no sólo disfrutan de su música, sino que han logrado ser reconocidos, tanto por Tommy Torres y en especial, por su disquera y la sociedad como un eslabón importante en la promoción y comercialización de su música.
+     \n\n Hoy en día contamos con la certificación de Warner Music México, como Fan Club Oficial Nivel Oro, debido al constante apoyo y seguimiento a Tommy.</string>
+    <!--Inicio de sesion-->
+    <string name="action_sign_in_short">Registrarse</string>
+    <string name="email">Email</string>
+    <string name="minimum_password">Contraseña demasiado corta, introduzca un mínimo de 6 caracteres!</string>
+    <string name="auth_failed">Falló la autenticación, consultar su correo electrónico, contraseña o regístrate</string>
+    <string name="change_email">Cambiar Email</string>
+    <string name="change_password">Cambiar Contraseña</string>
+    <string name="send_password_reset_email">Enviar mensaje de restablecimiento de contraseña</string>
+    <string name="remove_user">Eliminar usuario</string>
+    <string name="new_pass">Nueva contraseña</string>
+    <string name="title_activity_profile">Firebase</string>
+    <string name="title_activity_login">Registrarse</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="hint_name">Nombre Completo</string>
+    <string name="btn_login">Iniciar sesión</string>
+    <string name="btn_link_to_register">¿No eres un miembro? Registrate en la TommyMania ahora!</string>
+    <string name="btn_link_to_login">Ya estoy registrado. Iniciar sesion!</string>
+    <string name="title_activity_reset_password">Cambiar Contraseña</string>
+    <string name="btn_forgot_password">Olvidaste tu contraseña?</string>
+    <string name="btn_reset_password">Restablecer contraseña</string>
+    <string name="btn_back"><![CDATA[<< Back]]></string>
+    <string name="hint_new_email">Nuevo Email</string>
+    <string name="btn_change">Cambiar</string>
+    <string name="btn_send">Enviar</string>
+    <string name="btn_remove">Eliminar</string>
+    <string name="btn_sign_out">Cerrar sesión</string>
+    <string name="lbl_forgot_password">¿Olvidaste tu contraseña?</string>
+    <string name="forgot_password_msg">¡Necesitamos su correo electrónico registrado para enviarle las instrucciones para restablecer la contraseña.</string>
+
+
+
+
+
+
+
+
+</resources>

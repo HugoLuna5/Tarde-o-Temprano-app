@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="330dp"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:background="@drawable/dialog_container"
+    android:orientation="vertical" >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:paddingTop="@dimen/nav_header_vertical_spacing"
+        android:src="@drawable/lunainc" />
+
+
+    <TextView
+        android:id="@+id/titulo"
+        android:text="Luna Inc."
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/black"
+        android:layout_weight="0"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Tu futuro es creado por lo que haces hoy, no mañana"
+        android:textSize="18dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#000"
+        android:textAlignment="center"
+        android:gravity="center"
+
+        android:layout_marginBottom="6dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:text="Desarrollo de aplicaciones web y mobiles"
+        android:textSize="17dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#000"
+        android:textAlignment="center"
+        android:gravity="center"
+
+        android:layout_marginBottom="6dp"/>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="fill_parent"
+        android:layout_height="5dp"
+        android:layout_marginBottom="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@drawable/dialog_divider" />
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:text="Aplicación desarrollada por Luna Inc."
+        android:textSize="17dp"
+        android:layout_marginTop="15dp"
+        android:textColor="#000"
+        android:textAlignment="center"
+        android:gravity="center"
+
+        android:layout_marginBottom="6dp"
+
+        />
+    <LinearLayout
+        android:layout_width="330dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+        <Button
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="30dp"
+            android:layout_width="160dp"
+            android:layout_height="match_parent"
+            android:text="Ver más aplicaciones"
+            android:textSize="15dp"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:textColor="@color/material_deep_teal_500"
+            android:onClick="masapli" />
+        <Button
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="30dp"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:text="Contactar"
+            android:textSize="15dp"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:textColor="@color/material_deep_teal_500"
+            android:onClick="contactardes" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/botonera"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/aceptar"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:text="@string/aceptar"
+            android:textColor="@color/material_deep_teal_500"
+            android:layout_weight="0.23"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:textSize="20dp" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+</LinearLayout>
